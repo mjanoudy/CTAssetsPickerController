@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		21A931B0DF1DE6AA7CA73887 /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B080F5FA06B77AE361A363B /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a */; };
 		A67AE04091963F6C77C5FE46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB9ED3927E2C7F99667B50 /* libPods.a */; };
 		ADDEA34B192F4A540049D6A7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA34A192F4A540049D6A7 /* MediaPlayer.framework */; };
 		ADE31D8A17EFF08C008958B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE31D8917EFF08C008958B8 /* Foundation.framework */; };
@@ -63,6 +64,7 @@
 		573E56731AB9C90F00250567 /* nl-BE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-BE"; path = "nl-BE.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
 		78FC009B0D59C0E3BB69A7DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		79B51BE71A97741A0015DD2D /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
+		9B080F5FA06B77AE361A363B /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTAssetsPickerController-CTAssetsPickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A728F23A1B283B7B00CEE3E4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		AD309FC619E67B7500BFCE8B /* CTAssetsPickerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerCommon.h; sourceTree = "<group>"; };
 		AD58798218E54F0C00B5773D /* CTAssetsGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGroupViewController.h; sourceTree = "<group>"; };
@@ -111,6 +113,8 @@
 		ADFDE19B19357D38004752B5 /* ALAsset+accessibilityLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "ALAsset+accessibilityLabel.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		ADFDE1A01935857F004752B5 /* NSDateFormatter+timeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+timeIntervalFormatter.h"; sourceTree = "<group>"; };
 		ADFDE1A11935857F004752B5 /* NSDateFormatter+timeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSDateFormatter+timeIntervalFormatter.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D504A53A6A09D964A93CA466 /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DBEEB9E953A883C8B69B92FE /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 				ADE31D8E17EFF08C008958B8 /* UIKit.framework in Frameworks */,
 				ADE31D8A17EFF08C008958B8 /* Foundation.framework in Frameworks */,
 				A67AE04091963F6C77C5FE46 /* libPods.a in Frameworks */,
+				21A931B0DF1DE6AA7CA73887 /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +194,7 @@
 				ADE31D8B17EFF08C008958B8 /* CoreGraphics.framework */,
 				ADE31D8D17EFF08C008958B8 /* UIKit.framework */,
 				37AB9ED3927E2C7F99667B50 /* libPods.a */,
+				9B080F5FA06B77AE361A363B /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,6 +258,8 @@
 			children = (
 				78FC009B0D59C0E3BB69A7DE /* Pods.debug.xcconfig */,
 				453FEBD9917867C79B853164 /* Pods.release.xcconfig */,
+				DBEEB9E953A883C8B69B92FE /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig */,
+				D504A53A6A09D964A93CA466 /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -263,11 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE31DBB17EFF08C008958B8 /* Build configuration list for PBXNativeTarget "CTAssetsPickerDemo" */;
 			buildPhases = (
-				BF122932498A101470C5A071 /* Check Pods Manifest.lock */,
+				BF122932498A101470C5A071 /* [CP] Check Pods Manifest.lock */,
 				ADE31D8217EFF08C008958B8 /* Sources */,
 				ADE31D8317EFF08C008958B8 /* Frameworks */,
 				ADE31D8417EFF08C008958B8 /* Resources */,
-				8B6E61D8FC1A880BEA7C5DE4 /* Copy Pods Resources */,
+				8B6E61D8FC1A880BEA7C5DE4 /* [CP] Copy Pods Resources */,
+				904BF40908BD029899CBECCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,19 +349,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8B6E61D8FC1A880BEA7C5DE4 /* Copy Pods Resources */ = {
+		8B6E61D8FC1A880BEA7C5DE4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904BF40908BD029899CBECCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD7BE8E218AE0BA700DDC440 /* Appledoc */ = {
@@ -369,14 +393,14 @@
 			shellPath = /bin/sh;
 			shellScript = "APPLEDOC=`which appledoc`;\nif [ $APPLEDOC ]; then\n$APPLEDOC \\\n--project-name \"CTAssetsPickerController\" \\\n--project-company \"Clement T\" \\\n--company-id \"t.clement\" \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n--install-docset \\\n--docset-platform-family \"iphoneos\" \\\n\"${PROJECT_DIR}\"\nfi;";
 		};
-		BF122932498A101470C5A071 /* Check Pods Manifest.lock */ = {
+		BF122932498A101470C5A071 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,7 +556,7 @@
 		};
 		ADE31DBC17EFF08C008958B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78FC009B0D59C0E3BB69A7DE /* Pods.debug.xcconfig */;
+			baseConfigurationReference = DBEEB9E953A883C8B69B92FE /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -547,7 +571,7 @@
 		};
 		ADE31DBD17EFF08C008958B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 453FEBD9917867C79B853164 /* Pods.release.xcconfig */;
+			baseConfigurationReference = D504A53A6A09D964A93CA466 /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
