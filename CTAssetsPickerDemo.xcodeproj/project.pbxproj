@@ -33,6 +33,7 @@
 		ADE31DA017EFF08C008958B8 /* CTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE31D9F17EFF08C008958B8 /* CTMasterViewController.m */; };
 		ADE31DA517EFF08C008958B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE31DA417EFF08C008958B8 /* Images.xcassets */; };
 		ADE31DC217EFF159008958B8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE31DC117EFF159008958B8 /* AssetsLibrary.framework */; };
+		E4F975B0E1531BF45A08E547 /* libPods-MultipleImagesPickerController-CTAssetsPickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 828F0B9BE2DD07453FF42B7E /* libPods-MultipleImagesPickerController-CTAssetsPickerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		08DD56531A494299009CA145 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		08DD56541A4942A1009CA145 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		08DD56551A4942B3009CA145 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
+		23D8FC5C301E8F66C7F9038C /* Pods-MultipleImagesPickerController-CTAssetsPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleImagesPickerController-CTAssetsPickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleImagesPickerController-CTAssetsPickerDemo/Pods-MultipleImagesPickerController-CTAssetsPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		249481B31A4F3689000827AC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		249481B41A4F368C000827AC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
 		249481B51A4F368F000827AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
@@ -56,10 +58,12 @@
 		24F16AAF1A249DE30007F11A /* UIImage+CTAssetsPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+CTAssetsPickerController.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		24F16AB01A24AA1A0007F11A /* NSBundle+CTAssetsPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTAssetsPickerController.h"; sourceTree = "<group>"; };
 		24F16AB11A24AA1A0007F11A /* NSBundle+CTAssetsPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTAssetsPickerController.m"; sourceTree = "<group>"; };
+		337CA63EE7E5D6A4E0897BE1 /* Pods-MultipleImagesPickerController-CTAssetsPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleImagesPickerController-CTAssetsPickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleImagesPickerController-CTAssetsPickerDemo/Pods-MultipleImagesPickerController-CTAssetsPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		37AB9ED3927E2C7F99667B50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		573E56721AB9C8FB00250567 /* fr-BE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-BE"; path = "fr-BE.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
 		573E56731AB9C90F00250567 /* nl-BE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-BE"; path = "nl-BE.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
 		79B51BE71A97741A0015DD2D /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
+		828F0B9BE2DD07453FF42B7E /* libPods-MultipleImagesPickerController-CTAssetsPickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleImagesPickerController-CTAssetsPickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B080F5FA06B77AE361A363B /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTAssetsPickerController-CTAssetsPickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A728F23A1B283B7B00CEE3E4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		AD309FC619E67B7500BFCE8B /* CTAssetsPickerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerCommon.h; sourceTree = "<group>"; };
@@ -109,8 +113,6 @@
 		ADFDE19B19357D38004752B5 /* ALAsset+accessibilityLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "ALAsset+accessibilityLabel.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		ADFDE1A01935857F004752B5 /* NSDateFormatter+timeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+timeIntervalFormatter.h"; sourceTree = "<group>"; };
 		ADFDE1A11935857F004752B5 /* NSDateFormatter+timeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSDateFormatter+timeIntervalFormatter.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		D504A53A6A09D964A93CA466 /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		DBEEB9E953A883C8B69B92FE /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				ADE31D8E17EFF08C008958B8 /* UIKit.framework in Frameworks */,
 				ADE31D8A17EFF08C008958B8 /* Foundation.framework in Frameworks */,
 				21A931B0DF1DE6AA7CA73887 /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a in Frameworks */,
+				E4F975B0E1531BF45A08E547 /* libPods-MultipleImagesPickerController-CTAssetsPickerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +192,7 @@
 				ADE31D8D17EFF08C008958B8 /* UIKit.framework */,
 				37AB9ED3927E2C7F99667B50 /* libPods.a */,
 				9B080F5FA06B77AE361A363B /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a */,
+				828F0B9BE2DD07453FF42B7E /* libPods-MultipleImagesPickerController-CTAssetsPickerDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,8 +254,8 @@
 		C7A43CEBF3AEB6CC6290F550 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DBEEB9E953A883C8B69B92FE /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig */,
-				D504A53A6A09D964A93CA466 /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig */,
+				337CA63EE7E5D6A4E0897BE1 /* Pods-MultipleImagesPickerController-CTAssetsPickerDemo.debug.xcconfig */,
+				23D8FC5C301E8F66C7F9038C /* Pods-MultipleImagesPickerController-CTAssetsPickerDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -353,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleImagesPickerController-CTAssetsPickerDemo/Pods-MultipleImagesPickerController-CTAssetsPickerDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		904BF40908BD029899CBECCE /* [CP] Embed Pods Frameworks */ = {
@@ -368,7 +372,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAssetsPickerController-CTAssetsPickerDemo/Pods-CTAssetsPickerController-CTAssetsPickerDemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleImagesPickerController-CTAssetsPickerDemo/Pods-MultipleImagesPickerController-CTAssetsPickerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD7BE8E218AE0BA700DDC440 /* Appledoc */ = {
@@ -548,7 +552,7 @@
 		};
 		ADE31DBC17EFF08C008958B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBEEB9E953A883C8B69B92FE /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig */;
+			baseConfigurationReference = 337CA63EE7E5D6A4E0897BE1 /* Pods-MultipleImagesPickerController-CTAssetsPickerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -563,7 +567,7 @@
 		};
 		ADE31DBD17EFF08C008958B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D504A53A6A09D964A93CA466 /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig */;
+			baseConfigurationReference = 23D8FC5C301E8F66C7F9038C /* Pods-MultipleImagesPickerController-CTAssetsPickerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
