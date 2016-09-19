@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		21A931B0DF1DE6AA7CA73887 /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B080F5FA06B77AE361A363B /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a */; };
-		A67AE04091963F6C77C5FE46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB9ED3927E2C7F99667B50 /* libPods.a */; };
 		ADDEA34B192F4A540049D6A7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA34A192F4A540049D6A7 /* MediaPlayer.framework */; };
 		ADE31D8A17EFF08C008958B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE31D8917EFF08C008958B8 /* Foundation.framework */; };
 		ADE31D8C17EFF08C008958B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE31D8B17EFF08C008958B8 /* CoreGraphics.framework */; };
@@ -47,7 +46,6 @@
 		08DD56531A494299009CA145 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		08DD56541A4942A1009CA145 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		08DD56551A4942B3009CA145 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
-		249481A61A4F2820000827AC /* CTAssetsPicker.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CTAssetsPicker.xcassets; sourceTree = "<group>"; };
 		249481B31A4F3689000827AC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		249481B41A4F368C000827AC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
 		249481B51A4F368F000827AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
@@ -59,10 +57,8 @@
 		24F16AB01A24AA1A0007F11A /* NSBundle+CTAssetsPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTAssetsPickerController.h"; sourceTree = "<group>"; };
 		24F16AB11A24AA1A0007F11A /* NSBundle+CTAssetsPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTAssetsPickerController.m"; sourceTree = "<group>"; };
 		37AB9ED3927E2C7F99667B50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		453FEBD9917867C79B853164 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		573E56721AB9C8FB00250567 /* fr-BE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-BE"; path = "fr-BE.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
 		573E56731AB9C90F00250567 /* nl-BE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-BE"; path = "nl-BE.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
-		78FC009B0D59C0E3BB69A7DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		79B51BE71A97741A0015DD2D /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
 		9B080F5FA06B77AE361A363B /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTAssetsPickerController-CTAssetsPickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A728F23A1B283B7B00CEE3E4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
@@ -127,7 +123,6 @@
 				ADE31D8C17EFF08C008958B8 /* CoreGraphics.framework in Frameworks */,
 				ADE31D8E17EFF08C008958B8 /* UIKit.framework in Frameworks */,
 				ADE31D8A17EFF08C008958B8 /* Foundation.framework in Frameworks */,
-				A67AE04091963F6C77C5FE46 /* libPods.a in Frameworks */,
 				21A931B0DF1DE6AA7CA73887 /* libPods-CTAssetsPickerController-CTAssetsPickerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +133,6 @@
 		249481A51A4F2820000827AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				249481A61A4F2820000827AC /* CTAssetsPicker.xcassets */,
 				249481A71A4F2820000827AC /* CTAssetsPickerController.strings */,
 			);
 			path = Resources;
@@ -256,8 +250,6 @@
 		C7A43CEBF3AEB6CC6290F550 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				78FC009B0D59C0E3BB69A7DE /* Pods.debug.xcconfig */,
-				453FEBD9917867C79B853164 /* Pods.release.xcconfig */,
 				DBEEB9E953A883C8B69B92FE /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.debug.xcconfig */,
 				D504A53A6A09D964A93CA466 /* Pods-CTAssetsPickerController-CTAssetsPickerDemo.release.xcconfig */,
 			);
